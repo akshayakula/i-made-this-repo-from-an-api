@@ -2,4 +2,7 @@
 //BUG FROM JIRA
 //BUG FROM JIRA
 //BUG FROM JIRA
-Contents Wird?
+const sample_function = () => {
+  console.log(r)
+}
+sample_function()
