@@ -1,4 +1,13 @@
-const sample_function = () => {
+const sample1 = () => {
   console.log(r)
 }
-sample_function()
+
+const sample2 = function () {
+  console.log('hi')
+}
+
+const sample3 = sample2
+
+function sample4 (){
+  console.log('hi')
+}
