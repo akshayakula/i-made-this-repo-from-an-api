@@ -1,5 +1,7 @@
 const sample1 = () => {
   console.log(r)
+  console.log('hi')
+  const hi = 'test'
 }
 
 const sample2 = function () {
@@ -11,3 +13,5 @@ const sample3 = sample2
 function sample4 (){
   console.log('hi')
 }
+
+sample1()
