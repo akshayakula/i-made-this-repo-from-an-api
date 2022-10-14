@@ -2,6 +2,9 @@ const sample1 = () => {
   console.log(r)
   console.log('hi')
   const hi = 'test'
+  const sample5 = function () {
+    console.log('hi')
+  }
 }
 
 const sample2 = function () {
