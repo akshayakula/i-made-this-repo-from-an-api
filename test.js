@@ -9,6 +9,7 @@ const sample1 = () => {
 }
 
 
+// Reflexx Bug - JIR-3 - https://akshayakula.atlassian.net/browse/JIR-3
 const sample2 = function () {
   console.log('hi')
 }
