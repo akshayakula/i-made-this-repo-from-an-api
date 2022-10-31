@@ -1,6 +1,6 @@
 const sample1 = () => {
   const num = 'test'
-  num = num + five
+  num = num + value
   const sample5 = function () {
     console.log('hi')
   }
