@@ -1,5 +1,6 @@
 const sample1 = () => {
   const num = 'test'
+// Reflexx Bug - JIR-13 - https://akshayakula.atlassian.net/browse/JIR-13
   num = num + value
   const sample5 = function () {
     console.log('hi')
