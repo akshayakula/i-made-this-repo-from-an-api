@@ -1,11 +1,12 @@
-const sample1 = () => {
-  const num = 'test'
-// Reflexx Bug - JIR-13 - https://akshayakula.atlassian.net/browse/JIR-13
-  num = num + value
-  const sample5 = function () {
-    console.log('hi')
-  }
+const sample = function() {
+  var num = 5
+// Reflexx Bug - JIR-5 - https://akshayakula.atlassian.net/browse/JIR-5
+	num = num + value
+	if (num !== 6) {
+		throw new Exception("Value should be 6");
+	}
 }
+
 
 const sample2 = function () {
   console.log('hi')
