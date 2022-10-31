@@ -1,6 +1,5 @@
 const sample1 = () => {
-// Reflexx Bug - JIR-10 - https://akshayakula.atlassian.net/browse/JIR-10
-  console.log('hi');
+  console.log(r)
   console.log('hi')
   const hi = 'test'
   const sample5 = function () {
@@ -8,8 +7,6 @@ const sample1 = () => {
   }
 }
 
-
-// Reflexx Bug - JIR-3 - https://akshayakula.atlassian.net/browse/JIR-3
 const sample2 = function () {
   console.log('hi')
 }
