@@ -1,4 +1,11 @@
-const sample = function() {
+let sample =  () => {
+	let num = 10
+	if (num !== 10) {
+		throw new Exception("Value should be 6");
+	}
+
+}
+mple = function() {
 
 	num = num + value
 	if (num !== 6) {
