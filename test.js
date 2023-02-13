@@ -3,6 +3,7 @@ let sample =  () => {
 	if (num !== 10) {
 		throw new Exception("Value should be 6");
 	}
+// Reflexx Bug - JIR-7 - https://akshayakula.atlassian.net/browse/JIR-7
 
 }
 mple = function() {
