@@ -1,25 +1,13 @@
 let num = 10
-if (num !== 10) {
-	throw new Exception("Value should be 6");
-}
 // Reflexx Bug - JIR-7 - https://akshayakula.atlassian.net/browse/JIR-7
 
-}
-mple = function() {
-
-	num = num + value
-	if (num !== 6) {
-		throw new Exception("Value should be 6");
-	}
-}mple = function() {
-  var num = 5
-// Reflexx Bug - JIR-5 - https://akshayakula.atlassian.net/browse/JIR-5
+let value = 1; // defining value
+let mple = function() {
 	num = num + value
 	if (num !== 6) {
 		throw new Exception("Value should be 6");
 	}
 }
-
 
 const sample2 = function () {
   console.log('hi')
@@ -31,6 +19,9 @@ function sample4 (){
   console.log('hi')
 }
 
-sample1()
+function sample1 (){ // defining sample1
+  console.log('sample1 function')
+}
 
+sample1()
 
