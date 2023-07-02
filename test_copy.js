@@ -11,6 +11,9 @@ let mple = function() {
 const sample2 = function () {
   console.log('hi')
 }
+function sample1 (){ // defining sample1
+  console.log('sample1 function')
+}
 
 sample1()
 
