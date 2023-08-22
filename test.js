@@ -1,6 +1,7 @@
 let sample =  () => {
 	if( value > 10){
 		console.log('value is greater than 10')
+// Reflexx Bug - JIR-7 - https://akshayakula.atlassian.net/browse/JIR-7
 	}
 }
 
