@@ -1,9 +1,7 @@
 let sample =  () => {
-	let num = 10
-	if (num !== 10) {
-		throw new Exception("Value should be 6");
+	if( value > 10){
+		console.log('value is greater than 10')
 	}
-// Reflexx Bug - JIR-7 - https://akshayakula.atlassian.net/browse/JIR-7
 }
 
 
